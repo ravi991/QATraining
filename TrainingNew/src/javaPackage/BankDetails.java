@@ -1,4 +1,12 @@
 package javaPackage;
+interface Bank
+{
+	String bankName="Citigroup";
+	String name="Harry";
+	void bankName();
+	void accountHolderName();
+	
+}
 
 public class BankDetails implements Bank{
 
@@ -21,11 +29,3 @@ public class BankDetails implements Bank{
 	}
 }
 
-interface Bank
-{
-	String bankName="Citigroup";
-	String name="Harry";
-	void bankName();
-	void accountHolderName();
-	
-}
